@@ -1,0 +1,57 @@
+.header {
+    background-color: #1F2937;
+}
+
+*{
+    font-family: monospace;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hlinks {
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+} 
+
+:any-link {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.slogan {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p{
+    color: #f9faf8;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
