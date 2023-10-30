@@ -34,7 +34,7 @@
 
 .abc {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: #1F2937;
     padding-left: 60px;
@@ -54,4 +54,79 @@ p{
 .button1 {
     background-color: #3882f6;
     color: #e5e7eb;
+    align-self: flex-start;
+}
+
+h1 {text-align: center;
+}
+
+.lottie {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.def {
+    max-width: 200px;
+}
+
+.bq{
+    max-width: 150px;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.thunder {
+    color: #1F2937;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.xyz {
+    display: flex;
+    margin: 50px 200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3882f6;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+h3, .register{
+    color:#e5e7eb;
+}
+
+.footer {
+    background-color:#1F2937;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
